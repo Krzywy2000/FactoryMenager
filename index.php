@@ -1,7 +1,12 @@
 <html>
     <head>
+
+        <!--title-->
+        <title>Factory Menager - Hunter AG</title>
+
         <!--Meta tags-->
-        
+        <meta charset="utf-8">
+        <meta author="Wiktor Wiese">
 
         <!--Scripts-->
 
