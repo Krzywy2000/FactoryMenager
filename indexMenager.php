@@ -2,7 +2,7 @@
     <head>
 
         <!--title-->
-        <title>Factory Menager - Hunter AG</title>
+        <title>Factory Manager - Hunter AG</title>
 
         <!--Meta tags-->
         <meta charset="utf-8">
@@ -25,10 +25,10 @@
     </head>
     <body>
         <?php
-
-            include("./layout/header.php");
+            include("scripts/php/functions.php");
+            include("./layout/headerMenager.php");
             $toInclude = isset($_GET['page']) ? $_GET['page']:"main";
-            include("./pages/{$toInclude}.php");
+            include("./pages/menager/{$toInclude}.php");
             include("./layout/footer.php");
 
         ?>

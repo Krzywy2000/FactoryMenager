@@ -1,0 +1,26 @@
+.heading {
+    margin: 5%;
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+
+}
+
+.window {
+    padding-top: 5;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 10px 5px #a3a3a3;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin: 2% !important;
+}
+
+section {
+    min-height: 80%;
+}

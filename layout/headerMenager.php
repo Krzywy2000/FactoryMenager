@@ -14,25 +14,31 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarExample01">
         <div class="navbar-brand">
-            <a>Hunter Bus&Coach</a>
+            <a>FactoryManager</a>
         </div>
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="index.php">Strona Główna</a>
+                <a class="nav-link" aria-current="page" href="indexMenager.php">Strona Główna</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Produkty</a>
+                <a class="nav-link" href="#">Zakłady</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?page=zamowienie">Złóż zamówienie</a>
+                <a class="nav-link" href="index.php?page=zamowienie">Nowe zamówienia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                <a class="nav-link" href="#">Dodaj zamówienie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Archiwum</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="./pages/login.php">Zaloguj się</a>
+                <a class="nav-link">Witaj Wiktor!</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./pages/login.php">Wyloguj się</a>
             </li>
         </ul>
       </div>

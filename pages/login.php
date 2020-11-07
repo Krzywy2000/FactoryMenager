@@ -25,9 +25,10 @@
             <form class="text-center border border-light p-5" action="#!">
                 <div class="md-form">
                     <p class="h4 mb-4">Panel logowania</p>
+                    <H6>Dostęp tylko dla pracowników Hunter Bus&Coach s.f</H6>
                     <input type="text" id="login" class="form-control mb-4" placeholder="Login">
                     <input type="password" id="password" class="form-control mb-4" placeholder="Hasło">
-                    <button class="btn btn-info btn-block my-4" type="submit">Zaloguj!</button>
+                    <button class="btn bg-dark btn-info btn-block my-4" type="submit">Zaloguj!</button>
                 </div>
             </form>
         </div>
