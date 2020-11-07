@@ -24,10 +24,10 @@
                 <a class="nav-link" href="#">Zakłady</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.php?page=zamowienie">Nowe zamówienia</a>
+                <a class="nav-link" href="#">Nowe zamówienia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Dodaj zamówienie</a>
+                <a class="nav-link" href="indexmenager.php?page=zamowienie">Dodaj zamówienie</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Archiwum</a>
