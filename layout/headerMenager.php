@@ -35,10 +35,10 @@
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link">Witaj Wiktor!</a>
+                <a class="nav-link">Witaj <?php echo $_SESSION['name']." ".$_SESSION['surname']; ?>!</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./pages/login.php">Wyloguj się</a>
+                <a class="nav-link" href="./scripts/php/logout.php">Wyloguj się</a>
             </li>
         </ul>
       </div>

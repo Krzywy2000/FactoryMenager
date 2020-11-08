@@ -1,6 +1,14 @@
+<?php
+
+    session_start();
+    if($_SESSION['logged'] == NULL)
+    {
+        header("Location: pages/login.php");
+    }
+
+?>
 <html>
     <head>
-
         <!--title-->
         <title>Factory Manager - Hunter AG</title>
 
@@ -25,6 +33,7 @@
     </head>
     <body>
         <?php
+        
             include("scripts/php/functions.php");
             include("./layout/headerMenager.php");
             $toInclude = isset($_GET['page']) ? $_GET['page']:"main";
