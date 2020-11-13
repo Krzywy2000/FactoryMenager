@@ -21,7 +21,7 @@
                 <a class="nav-link" aria-current="page" href="indexMenager.php">Strona Główna</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Zakłady</a>
+                <a class="nav-link" href="indexmenager.php?page=factories">Zakłady</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Nowe zamówienia</a>
